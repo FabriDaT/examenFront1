@@ -1,0 +1,46 @@
+/*ESTILOS HEADER*/
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 70px;
+}
+header img {
+  width: 145.54px;
+  height: 23.74px;
+}
+
+nav ul {
+  display: inline;
+}
+
+nav ul li {
+  display: inline;
+  list-style: none;
+  margin-right: 28px;
+}
+header nav ul li a:hover{
+    background-color: aliceblue;
+}
+
+header button {
+  background: #f3603b;
+  box-shadow: 0px 4px 7px 0px #00000040;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 134px;
+  height: 44px;
+  border-radius: 50px;
+}
+header button:hover{
+    background-color: antiquewhite;
+}
+/*ESTILOS MAIN*/
+
+.hero {
+  display: flex;
+  justify-content: space-around;
+}
