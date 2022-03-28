@@ -6,6 +6,7 @@
 }
 body {
   background-color: #fafafa;
+  font-family: "Be Vietnam Pro", sans-serif;
 }
 
 /*ESTILOS HEADER*/
@@ -220,7 +221,7 @@ main .hero p {
   justify-content: space-around;
   align-items: center;
 }
-.banner .h2{
+.banner .h2 {
   width: 470px;
 }
 .banner h2 {
@@ -231,33 +232,100 @@ main .hero p {
   font-size: 40px;
   line-height: 48px;
 }
-.banner .button .getStarted{
+.banner .button .getStarted {
   background: #ffff;
-  color: #F3603B;
+  color: #f3603b;
 }
-.banner .button .getStarted:hover{
+.banner .button .getStarted:hover {
   opacity: 0.7;
   cursor: pointer;
 }
 
 /*---------ESTILOS FOOTER-----------*/
-footer{
-  height: 247px;
-  background-color:#1E1E26;
+footer {
+  height: 40vh;
+  background-color: #1e1e26;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-footer .sectionFooter{
+
+footer .sectionFooter {
   width: 80%;
-  height: 80%;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.sectionFooter ul{
+.sectionFooter .caja1 ul {
+  padding: 0px;
+}
+.sectionFooter .caja1 ul li {
   display: inline;
 }
-.sectionFooter ul li{
-  display: inline;
+.sectionFooter .caja1 ul li a img {
+  margin-right: 10px;
+}
+.sectionFooter .caja1 ul li a img:hover {
+  color:#f3603b; 
+  fill: #f3603b;
+}
+.sectionFooter .caja1 .logoFooter {
+  margin-bottom: 66px;
+}
+
+.sectionFooter .caja2 {
+  display: flex;
+  justify-content: space-between;
+}
+.sectionFooter .caja2 ul {
+  list-style: none;
+}
+.sectionFooter .caja2 ul li {
+  margin: 12px 0px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+}
+.sectionFooter .caja2 ul li a {
+  text-decoration: none;
+  color: #ffff;
+}
+
+.sectionFooter .caja3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 140px;
+}
+.sectionFooter .caja3 form {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.sectionFooter .caja3 form input {
+  width: 201px;
+  height: 44px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+.sectionFooter .caja3 form button {
+  background-color: #f3603b;
+  border-radius: 50px;
+  color: #ffff;
+  font-family: "Be Vietnam pro", sans-serif;
+  width: 63px;
+  height: 42px;
+  padding: 10px;
+  margin: 0px 9px;
+}
+.sectionFooter .caja3 form button:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+footer .copyright {
+  color: #8c8c94;
 }
