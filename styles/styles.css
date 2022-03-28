@@ -4,6 +4,9 @@
   box-sizing: border-box;
   margin: 0px;
 }
+body {
+  background-color: #fafafa;
+}
 
 /*ESTILOS HEADER*/
 
@@ -11,7 +14,7 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-top: 70px;
+  padding-top: 70px;
 }
 header img {
   width: 145.54px;
@@ -29,6 +32,8 @@ header nav ul li {
 }
 header nav ul li a:hover {
   background-color: aliceblue;
+  cursor: pointer;
+  opacity: 0.7;
 }
 header nav ul li a {
   text-decoration: none;
@@ -45,12 +50,15 @@ header nav ul li a {
   width: 134px;
   height: 44px;
   border-radius: 50px;
+  color: #fafafa;
 }
 .getStarted:hover {
   background-color: antiquewhite;
+  cursor: pointer;
+  opacity: 0.7;
 }
 
-/*ESTILOS MAIN*/
+/*---------------ESTILOS MAIN-------------------*/
 
 .hero {
   display: flex;
@@ -60,7 +68,7 @@ header nav ul li a {
 .div-left,
 .div-right {
   width: 50vw;
-  margin: 150px 70px;
+  margin: 75px 70px;
 }
 main .hero h1 {
   font-family: "Be Vietnam Pro", sans-serif;
@@ -86,24 +94,24 @@ main .hero p {
 .hero2 {
   display: flex;
   justify-content: space-between;
-  margin: 150px 70px;
+  margin: 50px 70px;
 }
 
-.hero2 .caja1,
-.caja2,
-.caja3 {
-  display: flex;
+.hero2 .caja1 {
   margin-left: 120px;
   margin-bottom: 40px;
 }
 
-.hero2 .der {
+.hero2 .up {
   display: flex;
-  flex-direction: column;
-  margin-left: 23px;
+  align-items: center;
+  gap: 48px;
+}
+.hero2 .down p {
+  margin-left: 118px;
 }
 
-.hero2 h2 {
+.hero2 .divLeft h2 {
   color: #232851;
   font-family: "Be Vietnam pro", sans-serif;
   font-size: 36px;
@@ -113,17 +121,20 @@ main .hero p {
   letter-spacing: 0em;
   text-align: left;
 }
-.hero2 h3 {
+
+.hero2 .divRight h3 {
   color: #232851;
   font-family: "Be Vietnam pro", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
   line-height: 23px;
-  letter-spacing: -0.015em;
   text-align: left;
 }
-.hero2 .divRight .caja1,.caja2,.caja3 .der p {
+
+.hero2 .divRight .caja1,
+.caja2,
+.caja3 .der p {
   color: #b3b2b7;
   font-family: "Be Vietnam pro", sans-serif;
   font-size: 16px;
@@ -141,4 +152,112 @@ main .hero p {
   line-height: 24px;
   letter-spacing: 0em;
   text-align: left;
+}
+/*----Section cards----*/
+
+.sectionCards h2 {
+  text-align: center;
+  color: #242e53;
+  font-family: "Be Vietnam pro", sans-serif;
+  font-size: 39px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 61px;
+  margin-bottom: 140px;
+}
+.sectionCards .cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e5e5e5;
+}
+.sectionCards .card {
+  background: #e5e5e5;
+  text-align: center;
+  margin: 0px 16px;
+  height: 219px;
+}
+
+.sectionCards .cards .card h4 {
+  color: #3f4868;
+  font-family: "Be Vietnam pro", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+  position: relative;
+  top: -20px;
+}
+.sectionCards .cards .card p {
+  color: #b9b9c1;
+  font-family: "Be Vietnam pro", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 156.6%;
+  position: relative;
+  top: -8px;
+}
+.sectionCards .cards .card img {
+  position: relative;
+  bottom: 43px;
+  height: 80px;
+  width: 80px;
+}
+
+.sectionCards .button {
+  display: flex;
+  justify-content: center;
+  padding-top: 45px;
+  padding-bottom: 130px;
+}
+
+.banner {
+  background-color: #f3613c;
+  width: 100%vw;
+  height: 224px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.banner .h2{
+  width: 470px;
+}
+.banner h2 {
+  color: #ffff;
+  font-family: "Be Vietnam pro", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+}
+.banner .button .getStarted{
+  background: #ffff;
+  color: #F3603B;
+}
+.banner .button .getStarted:hover{
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+/*---------ESTILOS FOOTER-----------*/
+footer{
+  height: 247px;
+  background-color:#1E1E26;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .sectionFooter{
+  width: 80%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.sectionFooter ul{
+  display: inline;
+}
+.sectionFooter ul li{
+  display: inline;
 }

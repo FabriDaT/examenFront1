@@ -38,3 +38,6 @@ Variante gris claro: rgb (249, 249, 249)
 Para los íconos sociales, puede usar los íconos provistos o una biblioteca de íconos de fuentes. Ej:
 
 - [Font Awesome](https://fontawesome.com)
+
+
+
