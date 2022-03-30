@@ -33,9 +33,9 @@ header nav ul li {
   margin-right: 28px;
 }
 header nav ul li a:hover {
-  background-color: aliceblue;
+  background-color: rgb(216, 231, 229);
   cursor: pointer;
-  opacity: 0.7;
+  opacity: 0.5;
 }
 header nav ul li a {
   text-decoration: none;
@@ -58,9 +58,9 @@ header .menuBurger {
   color: #fafafa;
 }
 .getStarted:hover {
-  background-color: antiquewhite;
+  background-color: rgb(201, 135, 36);
   cursor: pointer;
-  opacity: 0.7;
+  opacity: 0.9;
 }
 
 /*---------------ESTILOS MAIN-------------------*/
@@ -241,8 +241,10 @@ main .hero p {
   color: #f3603b;
 }
 .banner .button .getStarted:hover {
-  opacity: 0.7;
+  background-color: rgb(247, 247, 247);
   cursor: pointer;
+  filter: blur(0.2px);
+  opacity: 0.9;
 }
 
 /*---------ESTILOS FOOTER-----------*/
@@ -278,6 +280,7 @@ footer .sectionFooter {
 }
 .sectionFooter .caja1 ul li a i:hover {
   color: #f3603b;
+  transform: scale(1.5);
 }
 .sectionFooter .caja1 .logoFooter {
   margin-bottom: 66px;
@@ -297,9 +300,16 @@ footer .sectionFooter {
   font-size: 1rem;
   line-height: 23px;
 }
+.sectionFooter .caja2 .ul1{
+  padding-right: 100px;
+  padding-left: 0px;
+}
 .sectionFooter .caja2 ul li a {
   text-decoration: none;
   color: #ffff;
+}
+.sectionFooter .caja2 ul li a:hover {
+  color: #f3603b;
 }
 
 .sectionFooter .caja3 {
@@ -378,6 +388,11 @@ footer .copyright p {
   main .hero h1,p {
     text-align: center;
   }
+  main .hero p {
+    text-align: center;
+    color: #b3b2b7;
+    margin: 2rem;
+  }
   main .hero h1 {
     font-size: 2rem;
     line-height: 2.5rem;
@@ -387,7 +402,7 @@ footer .copyright p {
     margin-bottom: 15px;
   }
   main .hero .div-left {
-    margin-top: 0px;
+    margin: auto;
   }
   main .hero .div-right img {
     width: 70vw;
@@ -395,6 +410,7 @@ footer .copyright p {
   }
   main .hero .getStarted{
     margin: auto;
+    margin-bottom: 2rem;
   }
   main .hero2 {
     flex-direction: column;
@@ -402,15 +418,21 @@ footer .copyright p {
     padding: 0rem 1rem;
   }
   main .hero2 .divRight .caja1 {
-    margin-left: 0px;
+    margin: 1rem 2rem;
   }
   main .hero2 .divLeft p {
     color: #b3b2b7;
-    margin: 20px 0px;
+    margin: 3rem 0rem;
     text-align: center;
   }
   main .hero2 .divLeft h2{
     text-align: center;
+    font-size: 1.4rem;
+    line-height: 2rem;
+  }
+  main .hero2 .up{
+    gap: 1rem;
+    background-color: gainsboro;
   }
   main .hero2 .down p{
     margin: 0px;
@@ -423,6 +445,10 @@ footer .copyright p {
   .sectionCards .cards .card {
     width: 100%;
   }
+  .sectionCards h2{
+    margin-bottom: 5rem;
+    font-size: 1.5rem;
+  }
 
 
         /*banner*/
@@ -434,7 +460,8 @@ footer .copyright p {
   }
   main .banner .h2 h2{
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.4rem;
+    padding: 1rem;
   }
 
       /*footer*/
@@ -452,7 +479,10 @@ footer .sectionFooter .caja1{
   margin-top: 1rem;
 }
 footer .sectionFooter .caja1 .logoFooter{
-  margin: 0px;
+  margin: auto;
+}
+.sectionFooter .caja1 ul li a i{
+  font-size: 2.5rem;
 }
 footer .sectionFooter .caja2{
   margin-top: 2rem;
@@ -461,9 +491,12 @@ footer .sectionFooter .caja3{
   margin-top: 3rem;
   top: 0px;
 }
-
+.sectionFooter .caja2 .ul1 {
+  
+  padding: 0px;
+}
 footer .copyright{
-  margin-top: auto;
+  margin: auto;
 }
 
 
