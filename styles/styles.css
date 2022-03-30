@@ -98,7 +98,7 @@ main .hero p {
 .hero2 {
   display: flex;
   justify-content: space-between;
-  margin: 50px 70px;
+  margin: 6rem 4rem;
 }
 
 .hero2 .caja1 {
@@ -213,14 +213,14 @@ main .hero p {
 .sectionCards .button {
   display: flex;
   justify-content: center;
-  padding-top: 45px;
-  padding-bottom: 130px;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 .banner {
   background-color: #f3613c;
   width: 100%vw;
-  height: 224px;
+  height: 260px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -350,7 +350,7 @@ footer .copyright p {
 
 
 
-/*---------------MEDIA QUERYS--------------*/
+/*-------------------MEDIA QUERYS-------------------*/
 
 
 /*header*/
@@ -378,6 +378,10 @@ footer .copyright p {
   main .hero h1,p {
     text-align: center;
   }
+  main .hero h1 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
   main .hero .div-right {
     margin-top: 50px;
     margin-bottom: 15px;
@@ -394,6 +398,8 @@ footer .copyright p {
   }
   main .hero2 {
     flex-direction: column;
+    margin: 1rem 0rem;
+    padding: 0rem 1rem;
   }
   main .hero2 .divRight .caja1 {
     margin-left: 0px;
@@ -419,24 +425,41 @@ footer .copyright p {
   }
 
 
-  /*banner*/
+        /*banner*/
   main .banner{
     flex-direction: column;
   }
   main .banner .h2{
     width: 100vw;
   }
+  main .banner .h2 h2{
+    text-align: center;
+    font-size: 2rem;
+  }
 
-/*footer*/
+      /*footer*/
+footer{
+  height: 30rem;
+}     
 footer .sectionFooter{
   flex-direction: column-reverse;
 }
 footer .sectionFooter .caja1{
   flex-direction: column-reverse;
   display: flex;
+  justify-content: space-around;
+  height: 10rem;
+  margin-top: 1rem;
 }
 footer .sectionFooter .caja1 .logoFooter{
   margin: 0px;
+}
+footer .sectionFooter .caja2{
+  margin-top: 2rem;
+}
+footer .sectionFooter .caja3{
+  margin-top: 3rem;
+  top: 0px;
 }
 
 footer .copyright{
