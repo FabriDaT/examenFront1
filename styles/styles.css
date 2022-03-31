@@ -117,13 +117,11 @@ main .hero p {
 
 .hero2 .divLeft h2 {
   color: #232851;
-  
   font-size: 2.1rem;
   font-style: normal;
   font-weight: 700;
   line-height: 41px;
   letter-spacing: 0em;
-  text-align: left;
 }
 
 .hero2 .divRight h3 {
@@ -132,8 +130,11 @@ main .hero p {
   font-style: normal;
   font-weight: 700;
   line-height: 23px;
-  text-align: left;
-}
+  }
+
+  main .hero2 .divLeft p{
+    padding-top: 35px;
+  }
 
 .hero2 .divRight .caja1,
 .caja2,
@@ -143,15 +144,13 @@ main .hero p {
   font-style: normal;
   font-weight: 500;
   line-height: 26px;
-  text-align: left;
 }
 .hero2 p {
   font-size: 1rem;
   font-style: normal;
   font-weight: 500;
   line-height: 24px;
-  letter-spacing: 0em;
-  text-align: left;
+  
 }
 /*----Section cards----*/
 
@@ -211,9 +210,9 @@ main .hero p {
   padding-bottom: 4rem;
 }
 
-.banner {
+.banner{
   background-color: #f3613c;
-  width: 100%vw;
+  width: 100%;
   height: 260px;
   display: flex;
   justify-content: space-around;
@@ -409,8 +408,8 @@ footer .copyright p {
     margin: 1rem 0rem;
     padding: 0rem 1rem;
   }
-  main .hero2 .divRight .caja1 {
-    margin: 1rem 2rem;
+  main .hero2 .caja1{
+    margin-left: 0;
   }
   main .hero2 .divLeft p {
     color: #b3b2b7;
@@ -431,14 +430,16 @@ footer .copyright p {
     
   }
   .hero2 .divRight h3{
-    font-size: 0.8rem;
-    line-height: 15px;
+    font-size: 0.9rem;
+    line-height: 20px;
   }
   main .hero2 .divRight .caja1 .up img{
     height: 34px;
   }
   main .hero2 .down p{
     margin: 0px;
+    font-size: 0.9rem;
+    line-height: 20px;
   }
 
   /*section cards*/
@@ -459,7 +460,7 @@ footer .copyright p {
     flex-direction: column;
   }
   main .banner .h2{
-    width: 100vw;
+    width: 100%;
   }
   main .banner .h2 h2{
     text-align: center;
@@ -485,7 +486,7 @@ footer .sectionFooter .caja1 .logoFooter{
   margin: auto;
 }
 .sectionFooter .caja1 ul li a i{
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 footer .sectionFooter .caja2{
   margin-top: 2rem;
@@ -500,8 +501,4 @@ footer .sectionFooter .caja3{
 footer .copyright{
   margin: auto;
 }
-
-
-
-
 }
