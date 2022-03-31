@@ -75,7 +75,7 @@ header .menuBurger {
   margin: 75px 70px;
 }
 main .hero h1 {
-  font-family: "Be Vietnam Pro", sans-serif;
+  
   font-style: normal;
   font-weight: 700;
   font-size: 3.5rem;
@@ -83,7 +83,7 @@ main .hero h1 {
   color: #232c50;
 }
 main .hero p {
-  font-family: "Be Vietnam pro", sans-serif;
+
   font-style: normal;
   font-weight: 500;
   font-size: 1rem;
@@ -117,7 +117,7 @@ main .hero p {
 
 .hero2 .divLeft h2 {
   color: #232851;
-  font-family: "Be Vietnam pro", sans-serif;
+  
   font-size: 2.1rem;
   font-style: normal;
   font-weight: 700;
@@ -128,7 +128,6 @@ main .hero p {
 
 .hero2 .divRight h3 {
   color: #232851;
-  font-family: "Be Vietnam pro", sans-serif;
   font-size: 1rem;
   font-style: normal;
   font-weight: 700;
@@ -140,7 +139,6 @@ main .hero p {
 .caja2,
 .caja3 .der p {
   color: #b3b2b7;
-  font-family: "Be Vietnam pro", sans-serif;
   font-size: 1rem;
   font-style: normal;
   font-weight: 500;
@@ -148,7 +146,6 @@ main .hero p {
   text-align: left;
 }
 .hero2 p {
-  font-family: "Be Vietnam pro", sans-serif;
   font-size: 1rem;
   font-style: normal;
   font-weight: 500;
@@ -161,7 +158,6 @@ main .hero p {
 .sectionCards h2 {
   text-align: center;
   color: #242e53;
-  font-family: "Be Vietnam pro", sans-serif;
   font-size: 2.3rem;
   font-style: normal;
   font-weight: 700;
@@ -185,7 +181,6 @@ main .hero p {
 
 .sectionCards .cards .card h4 {
   color: #3f4868;
-  font-family: "Be Vietnam pro", sans-serif;
   font-size: 1rem;
   font-style: normal;
   font-weight: 700;
@@ -195,7 +190,6 @@ main .hero p {
 }
 .sectionCards .cards .card p {
   color: #b9b9c1;
-  font-family: "Be Vietnam pro", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 1rem;
@@ -230,7 +224,6 @@ main .hero p {
 }
 .banner h2 {
   color: #ffff;
-  font-family: "Be Vietnam pro", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 2.5rem;
@@ -280,7 +273,7 @@ footer .sectionFooter {
 }
 .sectionFooter .caja1 ul li a i:hover {
   color: #f3603b;
-  transform: scale(1.5);
+  transform: scale(1.3);
 }
 .sectionFooter .caja1 .logoFooter {
   margin-bottom: 66px;
@@ -333,7 +326,6 @@ footer .sectionFooter {
   background-color: #f3603b;
   border-radius: 50px;
   color: #ffff;
-  font-family: "Be Vietnam pro", sans-serif;
   width: 63px;
   height: 42px;
   padding: 10px;
@@ -431,8 +423,19 @@ footer .copyright p {
     line-height: 2rem;
   }
   main .hero2 .up{
-    gap: 1rem;
+    gap: 7px;
     background-color: gainsboro;
+    margin-bottom: 10px;
+    border-top-left-radius: 30px 50px;
+    border-bottom-left-radius: 50px 30px;
+    
+  }
+  .hero2 .divRight h3{
+    font-size: 0.8rem;
+    line-height: 15px;
+  }
+  main .hero2 .divRight .caja1 .up img{
+    height: 34px;
   }
   main .hero2 .down p{
     margin: 0px;
@@ -492,7 +495,6 @@ footer .sectionFooter .caja3{
   top: 0px;
 }
 .sectionFooter .caja2 .ul1 {
-  
   padding: 0px;
 }
 footer .copyright{
